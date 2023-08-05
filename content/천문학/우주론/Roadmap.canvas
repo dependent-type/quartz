@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"type":"group","id":"3356442e05198190","x":2000,"y":0,"width":920,"height":980,"label":"Phd lecture note"},
+		{"type":"group","id":"3b5677f2a3851d24","x":-900,"y":60,"width":920,"height":905,"label":"학교 교재"},
+		{"type":"group","id":"4b5e22e4d6046b41","x":640,"y":640,"width":440,"height":920,"label":"Intro"},
+		{"type":"link","url":"https://www.uio.no/studier/emner/matnat/astro/AST3220/v21/timeplan/index.html#FOR","id":"6c545f0e28e38b6c","x":-880,"y":-880,"width":880,"height":840},
+		{"type":"file","file":"첨부파일/현대천체물리학 P3-은하와 우주.pdf","id":"bd379160ba25fb83","x":-880,"y":545,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/Andrew Liddle - An Introduction to Modern Cosmology-Wiley (2015).pdf","id":"eeb248b3efda0b4e","x":-880,"y":80,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/Schutz, Bernard F - A first course in general relativity-Cambridge University Press (2009).pdf","id":"9ff6876afd3a51e0","x":-400,"y":80,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/Matts Roos - Introduction to Cosmology-Wiley (2015) 1.pdf","id":"6ff5dee93e981535","x":-400,"y":545,"width":400,"height":400},
+		{"type":"link","url":"https://cmb.wintherscoming.no/","id":"95f33fa57f9e5603","x":160,"y":-880,"width":880,"height":840},
+		{"type":"file","file":"첨부파일/Scott Dodelson_ Fabian Schmidt - Modern cosmology (2021).pdf","id":"c788289e99f91bf2","x":160,"y":80,"width":400,"height":400},
+		{"type":"text","text":"## Theoretical Background\n","id":"0299220fbce99541","x":400,"y":-20,"width":400,"height":65},
+		{"type":"text","text":"## General Relativity","id":"fa1c0f35e61e8f91","x":400,"y":513,"width":300,"height":67},
+		{"type":"file","file":"첨부파일/baumann.pdf","id":"d86c031dfd1cc1f5","x":640,"y":80,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/Steven Weinberg - Cosmology-Oxford University Press, USA (2008).pdf","id":"4fc71cb02abbbac8","x":1120,"y":80,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/Carroll Sean - Spacetime and Geometry an introduction to General Relativity-Cambridge (2022).pdf","id":"618ebd22a6558bd0","x":160,"y":620,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/lecture notes Sean Carroll's book.pdf","id":"28b8d2bf45fd5dd6","x":160,"y":1100,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/carroll_gr.pdf","id":"1633a3da66f7e5b6","x":160,"y":1580,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/elgaroy_GR.pdf","id":"34d3b9ac7550a46f","x":660,"y":1140,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/haavard_GR.pdf","id":"c5d47120b9f85d6b","x":660,"y":660,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/1504.06335.pdf","id":"e41a6b4c115c1fb0","x":2020,"y":60,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/0402060.pdf","id":"8e5c4cb75844ab2a","x":2500,"y":60,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/0802.3688.pdf","id":"6aec10bd94ed47ed","x":2020,"y":560,"width":400,"height":400},
+		{"type":"file","file":"첨부파일/9508126.pdf","id":"b25257721a6d9b02","x":2500,"y":560,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"7307111541378e19","fromNode":"6c545f0e28e38b6c","fromSide":"right","toNode":"95f33fa57f9e5603","toSide":"left"},
+		{"id":"7e1aabcffbb92fca","fromNode":"0299220fbce99541","fromSide":"left","toNode":"c788289e99f91bf2","toSide":"top"},
+		{"id":"9d804745ed659baf","fromNode":"95f33fa57f9e5603","fromSide":"bottom","toNode":"0299220fbce99541","toSide":"top"},
+		{"id":"44d2924610a4f8b5","fromNode":"0299220fbce99541","fromSide":"right","toNode":"d86c031dfd1cc1f5","toSide":"top"},
+		{"id":"844a22bf62aa639c","fromNode":"0299220fbce99541","fromSide":"right","toNode":"4fc71cb02abbbac8","toSide":"top"},
+		{"id":"3eb4353df2473530","fromNode":"fa1c0f35e61e8f91","fromSide":"left","toNode":"618ebd22a6558bd0","toSide":"top"},
+		{"id":"147afea40eb02348","fromNode":"618ebd22a6558bd0","fromSide":"bottom","toNode":"28b8d2bf45fd5dd6","toSide":"top"},
+		{"id":"a896a78dd510a44a","fromNode":"28b8d2bf45fd5dd6","fromSide":"bottom","toNode":"1633a3da66f7e5b6","toSide":"top"},
+		{"id":"a24f3f5135012b49","fromNode":"fa1c0f35e61e8f91","fromSide":"right","toNode":"4b5e22e4d6046b41","toSide":"top","label":"Introduction only"},
+		{"id":"3629b507894749d6","fromNode":"4b5e22e4d6046b41","fromSide":"right","toNode":"3356442e05198190","toSide":"left"},
+		{"id":"f97db095bd6ffe90","fromNode":"4fc71cb02abbbac8","fromSide":"right","toNode":"3356442e05198190","toSide":"left"},
+		{"id":"cd503afeee543179","fromNode":"618ebd22a6558bd0","fromSide":"right","toNode":"3356442e05198190","toSide":"left"}
+	]
+}

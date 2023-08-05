@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"group","id":"7e62e04b2d1e594e","x":440,"y":-240,"width":1420,"height":900,"label":"Intermediate"},
+		{"type":"group","id":"024e8406c828b563","x":-340,"y":-240,"width":680,"height":900,"label":"Introductory"},
+		{"id":"00584ca63afbb553","x":1980,"y":-240,"width":680,"height":900,"type":"group","label":"Advanced"},
+		{"type":"link","url":"https://youtu.be/2gABYM5M0ww","id":"642c123aa5d63f53","x":-320,"y":-180,"width":640,"height":360},
+		{"type":"link","url":"https://www.youtube.com/watch?v=T4IX36sP_0c&t=10266s","id":"4e8c010e7af4f73a","x":460,"y":280,"width":640,"height":360},
+		{"type":"link","url":"https://www.udemy.com/course/learn-python-by-making-games/","id":"e02b8e7915a6f615","x":-300,"y":280,"width":620,"height":360},
+		{"type":"link","url":"https://www.youtube.com/watch?v=qYomF9p_SYM","id":"800ddf174745c802","x":460,"y":-180,"width":640,"height":360},
+		{"type":"link","url":"https://www.youtube.com/watch?v=QU1pPzEGrqw","id":"cd08482a1dcf5210","x":1200,"y":-180,"width":640,"height":360},
+		{"type":"link","url":"https://www.youtube.com/watch?v=4tVC1vhxiao","id":"0a0c9d656597c621","x":1200,"y":280,"width":640,"height":360},
+		{"id":"e3498f7574d2d179","x":2000,"y":-180,"width":640,"height":360,"type":"link","url":"https://youtu.be/eJDIsFJN4OQ"},
+		{"id":"f632062ec1d6e193","x":2000,"y":280,"width":640,"height":360,"type":"link","url":"https://www.youtube.com/watch?v=KdYTvqZmyBk"},
+		{"id":"ec962dd7cd7d0b11","x":2800,"y":-180,"width":200,"height":60,"type":"text","text":"# Final Goal"},
+		{"id":"782fb852e294025c","x":2760,"y":-80,"width":1000,"height":600,"type":"link","url":"https://www.youtube.com/watch?v=Ab8TOSFfNp4"}
+	],
+	"edges":[
+		{"id":"c68153c124591383","fromNode":"024e8406c828b563","fromSide":"right","toNode":"7e62e04b2d1e594e","toSide":"left"},
+		{"id":"c6bd98716d02ef75","fromNode":"7e62e04b2d1e594e","fromSide":"right","toNode":"00584ca63afbb553","toSide":"left"},
+		{"id":"5be522c62b4d4103","fromNode":"00584ca63afbb553","fromSide":"right","toNode":"782fb852e294025c","toSide":"left"}
+	]
+}
